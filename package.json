@@ -1,5 +1,6 @@
 {
   "name": "landing-page",
+  "homepage": "https://testing-a.netlify.app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
