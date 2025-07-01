@@ -1,23 +1,23 @@
 import React from 'react';
 
 const icons = [
-    'src/assets/icon1.svg',
-    'src/assets/icon2.svg',
-    'src/assets/icon3.svg',
-    'src/assets/icon4.svg',
-    'src/assets/icon5.svg'
+    'public/assets/icon1.svg',
+    'public/assets/icon2.svg',
+    'public/assets/icon3.svg',
+    'public/assets/icon4.svg',
+    'public/assets/icon5.svg'
 ];
 
 export const Footer = () => {
     return (
-        <div className='mt-5 md:mt-40 bg-[url(src/assets/bg.svg)] bg-no-repeat bg-top bg-cover '>
+        <div className='mt-5 md:mt-40 bg-[url(public/assets/bg.svg)] bg-no-repeat bg-top bg-cover '>
             <p className='text-h2 md:text-h1 md:leading-15 text-center font-extralight'>
                 Need more clarity?<br />
                 Get in touch!
             </p>
 
             <img
-                src="src/assets/bookdemo.svg"
+                src="public/assets/bookdemo.svg"
                 alt="Book a demo"
                 className='mx-auto mt-8'
             />

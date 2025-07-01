@@ -15,7 +15,7 @@ export const App = () => {
     <div className="relative min-h-screen text-white font-display">
       <div className="absolute inset-0 transform rotate-180 -z-10">
         <div className="w-full h-full bg-no-repeat bg-bottom bg-contain"
-          style={{ backgroundImage: "url('/src/assets/bg.svg')" }} />
+          style={{ backgroundImage: "url('/public/assets/bg.svg')" }} />
       </div>
 
       <Router>

@@ -24,7 +24,7 @@ export const Insight = () => {
     return (
         <div className='mt-5 md:mt-20'>
             <img
-                src="src/assets/insight.svg"
+                src="public/assets/insight.svg"
                 alt=""
                 className='mx-auto'
             />

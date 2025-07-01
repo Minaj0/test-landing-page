@@ -19,7 +19,7 @@ export const Cards = () => {
             <div className="md:col-span-8 border border-[#313131] p-6 md:mb-4 lg:p-10 rounded-3xl bg-primary2 text-white relative flex flex-col justify-center">
                 {/* Left Decorative Image */}
                 <img
-                    src="src/assets/image.svg"
+                    src="public/assets/image.svg"
                     className="hidden md:block absolute left-14 top-1/2 transform -translate-y-1/2"
                     alt=""
                 />
@@ -31,14 +31,14 @@ export const Cards = () => {
 
                 {/* Right Decorative Image */}
                 <img
-                    src="src/assets/imageright.svg"
+                    src="public/assets/imageright.svg"
                     className="hidden md:block absolute right-14 top-1/2 transform -translate-y-1/2"
                     alt=""
                 />
 
                 {/* Signature */}
                 <p className="mt-6 text-center text-base md:text-p lg:text-h4 text-gray-500">
-                   Wade Warren Founder @Lorem ipsum
+                    Wade Warren Founder @Lorem ipsum
                 </p>
             </div>
 
@@ -62,7 +62,7 @@ export const Cards = () => {
                         </p>
 
                         <div className="flex items-center border-gray-600 relative">
-                            <hr className='w-15 text-gray-500 absolute -left-7 transform rotate-90'/>
+                            <hr className='w-15 text-gray-500 absolute -left-7 transform rotate-90' />
                             <div>
                                 <p className="text-h4 px-3">Lorem ipsum</p>
                                 <p className="text-gray-500 text-p px-3">Founder and CEO</p>
@@ -70,7 +70,7 @@ export const Cards = () => {
 
                             <div className="ml-auto text-4xl">
                                 <img
-                                    src="src/assets/imageright.svg"
+                                    src="public/assets/imageright.svg"
                                     alt=""
                                 />
                             </div>

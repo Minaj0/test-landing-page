@@ -20,7 +20,7 @@ export const Navbar = () => {
         <div className='container mx-auto flex justify-between items-center py-6 px-4 md:py-10'>
             {/* Logo with Link to home */}
             <Link to="/">
-                <img src="/src/assets/LOGO.svg" alt="Logo" className='w-24 md:px-6 md:w-auto' />
+                <img src="/public/assets/LOGO.svg" alt="Logo" className='w-24 md:px-6 md:w-auto' />
             </Link>
 
             {/* Desktop Navigation */}
@@ -43,7 +43,7 @@ export const Navbar = () => {
                 to="/contact"
                 className="hidden md:flex items-center gap-2  px-6 py-3"
             >
-                <img src="src/assets/Link.svg" alt="" />
+                <img src="public/assets/Link.svg" alt="" />
             </Link>
 
             {/* Mobile Menu Button */}
@@ -77,7 +77,7 @@ export const Navbar = () => {
                         className="mt-8 flex items-center gap-2px-8 py-4 rounded-lg"
                         onClick={() => setIsOpen(false)}
                     >
-                        <img src="src/assets/Link.svg" alt="" />
+                        <img src="public/assets/Link.svg" alt="" />
                     </Link>
                 </div>
             </div>
