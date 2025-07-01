@@ -51,7 +51,7 @@ export const Pricing = () => {
   return (
     <div className='mt-3 md:mt-20'>
       <img
-        src="public/assets/pricing.svg"
+        src="/assets/pricing.svg"
         alt=""
         className='mx-auto'
       />
@@ -88,14 +88,14 @@ export const Pricing = () => {
                 </ul>
               </div>
               <div>
-                <img src="public/assets/subscribe.svg" alt="" />
+                <img src="/assets/subscribe.svg" alt="" />
               </div>
             </div>
 
             {/* PRO */}
             <div className="bg-[#141414] rounded-2xl p-6 flex flex-col justify-between border border-[#1f1f1f] relative">
               <img
-                src="public/assets/badge.svg"
+                src="/assets/badge.svg"
                 alt=""
                 className='h-10 absolute top-0 right-8'
               />
@@ -124,7 +124,7 @@ export const Pricing = () => {
                 </ul>
               </div>
               <div>
-                <img src="public/assets/subscribe.svg" alt="" />
+                <img src="/assets/subscribe.svg" alt="" />
               </div>
             </div>
 

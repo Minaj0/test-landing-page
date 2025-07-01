@@ -2,27 +2,27 @@ import React from 'react'
 
 const projects = [
     {
-        src: 'public/assets/project2-8g0cod9l.jpg.svg',
+        src: '/assets/project2-8g0cod9l.jpg.svg',
         title: 'Slippery moneys – e-commerce platform for high risk industries',
     },
     {
-        src: 'public/assets/project6-C2twDe5Z.jpg.svg',
+        src: '/assets/project6-C2twDe5Z.jpg.svg',
         title: 'Hybrid capital – digital currency',
     },
     {
-        src: 'public/assets/project3-IgW1Pkkw.jpg.svg',
+        src: '/assets/project3-IgW1Pkkw.jpg.svg',
         title: 'Betero – sports betting platform',
     },
     {
-        src: 'public/assets/project5-DSLPbhiU.jpg.svg',
+        src: '/assets/project5-DSLPbhiU.jpg.svg',
         title: 'Exec – employees financial wellness saas',
     },
     {
-        src: 'public/assets/project1-DyFZYTNM.jpg.svg',
+        src: '/assets/project1-DyFZYTNM.jpg.svg',
         title: 'Voltage – accessible clean energy startup',
     },
     {
-        src: 'public/assets/project4-BhR40iZf.jpg.svg',
+        src: '/assets/project4-BhR40iZf.jpg.svg',
         title: 'Hyperbolic – a decentralized data transmission startup',
     },
   ];
@@ -31,7 +31,7 @@ export const Portfolio = () => {
     return (
         <div className='container mx-auto mt-5 md:mt-20 p-8'>
             <img
-                src="public/assets/porfolio.svg"
+                src="/assets/porfolio.svg"
                 alt=""
                 className='px-10'
             />
@@ -59,7 +59,7 @@ export const Portfolio = () => {
                 ))}
             </div>
             <img
-                src="public/assets/seework.svg"
+                src="/assets/seework.svg"
                 alt=""
                 className='mx-auto'
             />

@@ -52,7 +52,7 @@ export const BrandCarousel = () => {
                     {brands.map((src, i) => (
                         <div key={i} className="flex justify-center items-center">
                             <img
-                                src={`public/assets/${src}`}
+                                src={`/assets/${src}`}
                                 alt={`brand-${i}`}
                                 className="w-28 md:w-32 opacity-80 hover:opacity-100 transition duration-300"
                             />

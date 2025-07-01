@@ -102,7 +102,7 @@ export const Testimonial = () => {
     return (
         <div className="lg:py-20 px-4 md:px-12 lg:min-h-screen flex flex-col justify-center text-white">
             <div className="mb-12 text-center">
-                <img src="public/assets/testimonial.svg" alt="testimonial icon" className="mx-auto" />
+                <img src="/assets/testimonial.svg" alt="testimonial icon" className="mx-auto" />
                 <p className="font-extralight text-h3 md:text-h2 md:leading-15 mt-4">
                     Read what our clients are <br /> saying about us
                 </p>
@@ -155,7 +155,7 @@ const TestimonialCard = ({ testimonial }) => (
         <p className="text-base text-gray-400 leading-relaxed mb-6 flex-grow">"{testimonial.text}"</p>
         <div className="text-base font-semibold flex items-center gap-3">
             {testimonial.platform}
-            <img src="public/assets/Container.svg" alt="" />
+            <img src="/assets/Container.svg" alt="" />
             <span className="text-gray-400">{testimonial.rating}.0</span>
         </div>
     </div>

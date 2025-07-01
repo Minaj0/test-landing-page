@@ -77,7 +77,7 @@ export const Services = () => {
     return (
         <div className='mt-3 md:py-16 text-center w-[60%] md:w-[45%] mx-auto'>
             <img
-                src="public/assets/services.svg"
+                src="/assets/services.svg"
                 alt=""
                 className='mx-auto'
             />
@@ -90,7 +90,7 @@ export const Services = () => {
                             <div key={i}>
                                 <div className="flex justify-center items-center">
                                     <img
-                                        src={`public/assets/${src}`}
+                                        src={`/assets/${src}`}
                                         alt={`brand-${i}`}
                                         className=" mt-6 opacity-80 p-2 rounded-2xl hover:opacity-100 transition duration-300"
                                     />
@@ -107,7 +107,7 @@ export const Services = () => {
                             <div key={i}>
                                 <div className="flex justify-center items-center">
                                     <img
-                                        src={`public/assets/${src}`}
+                                        src={`/assets/${src}`}
                                         alt={`brand-${i}`}
                                         className="p-2 opacity-80 rounded-2xl hover:opacity-100 transition duration-300"
                                     />

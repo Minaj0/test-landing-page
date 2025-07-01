@@ -19,7 +19,7 @@ export const Cards = () => {
             <div className="md:col-span-8 border border-[#313131] p-6 md:mb-4 lg:p-10 rounded-3xl bg-primary2 text-white relative flex flex-col justify-center">
                 {/* Left Decorative Image */}
                 <img
-                    src="public/assets/image.svg"
+                    src="/assets/image.svg"
                     className="hidden md:block absolute left-14 top-1/2 transform -translate-y-1/2"
                     alt=""
                 />
@@ -31,7 +31,7 @@ export const Cards = () => {
 
                 {/* Right Decorative Image */}
                 <img
-                    src="public/assets/imageright.svg"
+                    src="/assets/imageright.svg"
                     className="hidden md:block absolute right-14 top-1/2 transform -translate-y-1/2"
                     alt=""
                 />
@@ -70,7 +70,7 @@ export const Cards = () => {
 
                             <div className="ml-auto text-4xl">
                                 <img
-                                    src="public/assets/imageright.svg"
+                                    src="/assets/imageright.svg"
                                     alt=""
                                 />
                             </div>
